@@ -1,0 +1,47 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorful Dashboard</title>
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+</head>
+<body>
+
+<div class="dashboard">
+    <div class="sidebar">
+        <div class="logo">
+            <a href="#homepage">
+                <img src="logo.svg" alt="Logo">
+            </a>
+        </div>
+        <div class="user-info">
+            <img src="user-avatar.jpg" alt="User Avatar" width="50" height="50">
+            <h3>User</h3>
+        </div>
+        <div class="menu-list">
+            <span>Dashboard</span>
+            <span>Wallet</span>
+            <span>Financial Insight</span>
+            <span>Income</span>
+            <span>Expense</span>
+            <span>Settings</span>
+            <span>Logout</span>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="header">
+            <h2>Dashboard</h2>
+            <p>Welcome, User!</p>
+        </div>
+        <div class="main-content">
+            <!-- Your dashboard content goes here -->
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
